@@ -6,11 +6,12 @@ import { BrowserModule } from "@angular/platform-browser";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FormsModule } from "@angular/forms";
 import { DisplayhelloworldComponent} from "./components/displayhelloworld/displayhelloworld.component";
+import {ShowhellobuttonComponent} from "./components/showhellobutton/showhellobutton.component";
+
 
 const routes: Routes = [
-  {path: '',  component:DisplayhelloworldComponent},
-
-
+  {path: '',  component: DisplayhelloworldComponent},
+  {path: 'showhellobutton',  component: ShowhellobuttonComponent},
 
 
 
@@ -31,6 +32,7 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     DisplayhelloworldComponent,
+    ShowhellobuttonComponent,
 
 
 
