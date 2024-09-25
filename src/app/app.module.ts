@@ -47,6 +47,8 @@ import {UppercaseGreetingComponent} from "./components/uppercasegreeting/upperca
 import {DivisibleCheckerComponent} from "./components/divisiblechecker/divisiblechecker.component";
 import {ColorChangerComponent} from "./components/colorchanger/colorchanger.component";
 import {TodostudentComponent} from "./components/todostudent/todostudent.component";
+import {GuesswordgameComponent} from "./components/guesswordgame/guesswordgame.component";
+
 
 const routes: Routes = [
   {path: '',  component: DisplayhelloworldComponent},
@@ -91,6 +93,7 @@ const routes: Routes = [
   {path: 'divisiblechecker', component: DivisibleCheckerComponent},
   {path: 'colorchanger', component: ColorChangerComponent},
   {path: 'todostudent', component: TodostudentComponent},
+  {path: 'guesswordgame', component: GuesswordgameComponent},
 
 
 
@@ -159,6 +162,7 @@ const routes: Routes = [
     DivisibleCheckerComponent,
     ColorChangerComponent,
     TodostudentComponent,
+    GuesswordgameComponent,
 
 
 
