@@ -48,6 +48,7 @@ import {DivisibleCheckerComponent} from "./components/divisiblechecker/divisible
 import {ColorChangerComponent} from "./components/colorchanger/colorchanger.component";
 import {TodostudentComponent} from "./components/todostudent/todostudent.component";
 import {GuesswordgameComponent} from "./components/guesswordgame/guesswordgame.component";
+import {AnimelistComponent} from "./components/animelist/animelist.component";
 
 
 const routes: Routes = [
@@ -94,6 +95,7 @@ const routes: Routes = [
   {path: 'colorchanger', component: ColorChangerComponent},
   {path: 'todostudent', component: TodostudentComponent},
   {path: 'guesswordgame', component: GuesswordgameComponent},
+  {path: 'animelist', component: AnimelistComponent},
 
 
 
@@ -163,6 +165,7 @@ const routes: Routes = [
     ColorChangerComponent,
     TodostudentComponent,
     GuesswordgameComponent,
+    AnimelistComponent,
 
 
 
