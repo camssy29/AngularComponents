@@ -53,6 +53,8 @@ import {DiscountCalculatorComponent} from "./components/discountcalculator/disco
 import {PasswordStrengthCheckerComponent} from "./components/passwordstrengthchecker/passwordstrengthchecker.component";
 import {LetterReplacerComponent} from "./components/letterreplacer/letterreplacer.component";
 import {CountdowntimerComponent} from "./components/countdowntimer/countdowntimer.component";
+import {UnitconverterComponent} from "./components/unitconverter/unitconverter.component";
+
 
 
 const routes: Routes = [
@@ -104,6 +106,7 @@ const routes: Routes = [
   {path: 'passwordstrengthchecker', component: PasswordStrengthCheckerComponent},
   {path: 'letterreplacer', component: LetterReplacerComponent},
   {path: 'countdowntimer', component: CountdowntimerComponent},
+  {path: 'unitconverter', component: UnitconverterComponent},
 
 
 
@@ -177,6 +180,7 @@ const routes: Routes = [
     PasswordStrengthCheckerComponent,
     LetterReplacerComponent,
     CountdowntimerComponent,
+    UnitconverterComponent,
 
 
 
