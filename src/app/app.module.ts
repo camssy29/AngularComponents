@@ -49,6 +49,15 @@ import {ColorChangerComponent} from "./components/colorchanger/colorchanger.comp
 import {TodostudentComponent} from "./components/todostudent/todostudent.component";
 import {GuesswordgameComponent} from "./components/guesswordgame/guesswordgame.component";
 import {AnimelistComponent} from "./components/animelist/animelist.component";
+import {DiscountCalculatorComponent} from "./components/discountcalculator/discountcalculator.component";
+
+
+
+
+
+
+
+
 
 
 const routes: Routes = [
@@ -96,6 +105,7 @@ const routes: Routes = [
   {path: 'todostudent', component: TodostudentComponent},
   {path: 'guesswordgame', component: GuesswordgameComponent},
   {path: 'animelist', component: AnimelistComponent},
+  {path: 'discountcalculator', component: DiscountCalculatorComponent},
 
 
 
@@ -166,6 +176,7 @@ const routes: Routes = [
     TodostudentComponent,
     GuesswordgameComponent,
     AnimelistComponent,
+    DiscountCalculatorComponent,
 
 
 
