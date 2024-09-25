@@ -46,7 +46,7 @@ import {RandomQuoteDisplayComponent} from "./components/randomquotedisplay/rando
 import {UppercaseGreetingComponent} from "./components/uppercasegreeting/uppercasegreeting.component";
 import {DivisibleCheckerComponent} from "./components/divisiblechecker/divisiblechecker.component";
 import {ColorChangerComponent} from "./components/colorchanger/colorchanger.component";
-
+import {TodostudentComponent} from "./components/todostudent/todostudent.component";
 
 const routes: Routes = [
   {path: '',  component: DisplayhelloworldComponent},
@@ -90,6 +90,7 @@ const routes: Routes = [
   {path: 'uppercasegreeting', component: UppercaseGreetingComponent},
   {path: 'divisiblechecker', component: DivisibleCheckerComponent},
   {path: 'colorchanger', component: ColorChangerComponent},
+  {path: 'todostudent', component: TodostudentComponent},
 
 
 
@@ -157,6 +158,7 @@ const routes: Routes = [
     UppercaseGreetingComponent,
     DivisibleCheckerComponent,
     ColorChangerComponent,
+    TodostudentComponent,
 
 
 
