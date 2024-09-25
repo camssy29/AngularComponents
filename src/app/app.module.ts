@@ -51,6 +51,8 @@ import {GuesswordgameComponent} from "./components/guesswordgame/guesswordgame.c
 import {AnimelistComponent} from "./components/animelist/animelist.component";
 import {DiscountCalculatorComponent} from "./components/discountcalculator/discountcalculator.component";
 import {PasswordStrengthCheckerComponent} from "./components/passwordstrengthchecker/passwordstrengthchecker.component";
+import {LetterReplacerComponent} from "./components/letterreplacer/letterreplacer.component";
+
 
 
 const routes: Routes = [
@@ -100,7 +102,7 @@ const routes: Routes = [
   {path: 'animelist', component: AnimelistComponent},
   {path: 'discountcalculator', component: DiscountCalculatorComponent},
   {path: 'passwordstrengthchecker', component: PasswordStrengthCheckerComponent},
-
+  {path: 'letterreplacer', component: LetterReplacerComponent},
 
 
 
@@ -172,6 +174,7 @@ const routes: Routes = [
     AnimelistComponent,
     DiscountCalculatorComponent,
     PasswordStrengthCheckerComponent,
+    LetterReplacerComponent,
 
 
 
