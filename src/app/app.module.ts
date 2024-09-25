@@ -50,14 +50,7 @@ import {TodostudentComponent} from "./components/todostudent/todostudent.compone
 import {GuesswordgameComponent} from "./components/guesswordgame/guesswordgame.component";
 import {AnimelistComponent} from "./components/animelist/animelist.component";
 import {DiscountCalculatorComponent} from "./components/discountcalculator/discountcalculator.component";
-
-
-
-
-
-
-
-
+import {PasswordStrengthCheckerComponent} from "./components/passwordstrengthchecker/passwordstrengthchecker.component";
 
 
 const routes: Routes = [
@@ -106,6 +99,7 @@ const routes: Routes = [
   {path: 'guesswordgame', component: GuesswordgameComponent},
   {path: 'animelist', component: AnimelistComponent},
   {path: 'discountcalculator', component: DiscountCalculatorComponent},
+  {path: 'passwordstrengthchecker', component: PasswordStrengthCheckerComponent},
 
 
 
@@ -177,6 +171,7 @@ const routes: Routes = [
     GuesswordgameComponent,
     AnimelistComponent,
     DiscountCalculatorComponent,
+    PasswordStrengthCheckerComponent,
 
 
 
