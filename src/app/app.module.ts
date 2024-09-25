@@ -52,7 +52,7 @@ import {AnimelistComponent} from "./components/animelist/animelist.component";
 import {DiscountCalculatorComponent} from "./components/discountcalculator/discountcalculator.component";
 import {PasswordStrengthCheckerComponent} from "./components/passwordstrengthchecker/passwordstrengthchecker.component";
 import {LetterReplacerComponent} from "./components/letterreplacer/letterreplacer.component";
-
+import {CountdowntimerComponent} from "./components/countdowntimer/countdowntimer.component";
 
 
 const routes: Routes = [
@@ -103,6 +103,7 @@ const routes: Routes = [
   {path: 'discountcalculator', component: DiscountCalculatorComponent},
   {path: 'passwordstrengthchecker', component: PasswordStrengthCheckerComponent},
   {path: 'letterreplacer', component: LetterReplacerComponent},
+  {path: 'countdowntimer', component: CountdowntimerComponent},
 
 
 
@@ -175,6 +176,7 @@ const routes: Routes = [
     DiscountCalculatorComponent,
     PasswordStrengthCheckerComponent,
     LetterReplacerComponent,
+    CountdowntimerComponent,
 
 
 
